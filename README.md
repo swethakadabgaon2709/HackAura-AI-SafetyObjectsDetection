@@ -148,3 +148,25 @@ Many industrial and hazardous work environments lack standardized and affordable
 | NitrogenTank     |   0.82  |    0.95   |  0.93  |
 | ...              |   ...   |    ...    |  ...   |
 See `/results/` for all class metrics and annotated images.
+
+---
+
+## 🔮 Future Scope and Business Potential
+
+### Importance and Feasibility  
+This project addresses a critical safety gap in industrial and hazardous environments where manual monitoring of essential safety equipment is error-prone and inconsistent. Automated, real-time detection ensures continuous compliance with safety regulations and reduces workplace accidents, which can lead to significant cost savings and improved worker safety. The use of synthetic data from the Falcon digital twin simulator makes this solution feasible and cost-effective by eliminating expensive and time-consuming data collection in hazardous areas.
+
+### Scalability  
+The modular architecture using YOLOv8, combined with synthetic dataset generation in Falcon Editor, allows easy extension to new safety objects, different industrial settings, or additional environments without the need to collect large real-world datasets. This flexibility supports scalable deployment across diverse industrial sectors and geographic regions.
+
+### Model Improvement using Falcon Editor  
+Falcon Editor’s synthetic data generation capabilities empower users to simulate diverse lighting conditions, occlusions, and environmental variations to enhance model robustness. Continuous dataset updates and augmentation through Falcon can improve detection accuracy, adapt to emerging safety equipment, and address domain-specific challenges without manual data gathering.
+
+### Business Model Opportunities  
+- **SaaS Platform for Safety Monitoring:** Offer this detection system as a subscription-based service for industries to monitor safety equipment remotely in real-time, with customizable alerts and reporting dashboards.  
+- **Enterprise Integration:** Partner with industrial automation and IoT providers to embed the detection model in existing security and surveillance infrastructure.  
+- **Custom Solutions:** Provide tailored model training and synthetic data generation services using Falcon Editor to suit specific client needs and compliance standards.  
+- **Training and Consultancy:** Leverage expertise in synthetic data and real-time detection to offer professional services and training for industries adopting AI-powered safety solutions.
+
+Together, these directions highlight the practical value, growth potential, and commercial viability of this project as a tool for enhancing industrial safety through AI-driven innovation.
+
