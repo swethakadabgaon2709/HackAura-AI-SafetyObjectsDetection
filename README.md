@@ -37,10 +37,45 @@ Many industrial and hazardous work environments lack standardized and affordable
 
 ---
 
+## 🧩 Model & Dataset  
+- **Model:** YOLOv8 (small/medium versions)  
+- **Dataset:** Synthetic images and YOLO annotations from Falcon Editor, covering these safety equipment classes:  
+  - OxygenTank, NitrogenTank, FirstAidBox, FireAlarm, SafetySwitchPanel, EmergencyPhone, FireExtinguisher
 
-## 🛠️ Step-by-Step Instructions to Run and Test the Model (USE CASE)
+## 🛠️ How to Run on Google Colab
 
-### 🏁 Quickstart
+1. **Dataset Setup**  
+   - Download the synthetic dataset as a ZIP file from Falcon's secure link.  
+   - Upload the ZIP and related files manually to your Google Drive.  
+   - Mount Google Drive within your Colab notebook to access the data seamlessly.
+
+2. **Run Training Notebook**  
+   - Open the provided `.ipynb` notebook in Colab.  
+   - Paste and execute the cells in sequence.  
+   - After uploading and mounting the dataset, **update file paths** inside the notebook as needed.
+
+3. **Update `yolo-params.yaml`**  
+   - Modify the dataset path entries in `yolo-params.yaml` within Colab to reflect the mounted Drive paths where the dataset resides.  
+   - This step is crucial to ensure YOLOv8 training references the correct dataset location.
+
+4. **Training and Evaluation**  
+   - Run the training with YOLOv8 parameter settings from `yolo-params.yaml`.  
+   - Evaluation metrics such as mAP, precision, and recall will be generated automatically.
+
+---
+
+## 🔍 Interpreting Inference Graphs
+
+- Training logs and graphs display key model performance indicators over epochs, including loss curves and precision-recall metrics.  
+- A decreasing training and validation loss curve indicates the model is learning effectively.  
+- The mAP@0.5 metric shows detection accuracy per class; higher values (close to 1.0) reflect better performance.  
+- Precision and recall graphs show the model's balance between correctly finding objects and avoiding false detections.  
+- These graphs support validation of the model’s robustness and readiness for deployment.
+
+---
+
+
+## 🏁 Quickstart with Streamlit App (USE CASE)
 
 1. **Clone the Repository**
     ```
