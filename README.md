@@ -1,13 +1,14 @@
 # HackAura-AI-SafetyObjectsDetection
 
-## Project Overview
+## 🚀 Project Overview
 This project demonstrates a robust, real-time vision system for detecting essential safety equipment in industrial environments. We leverage synthetic data created with the Falcon digital twin simulator, train a YOLOv8 model, and deploy the solution through an interactive Streamlit web app for instant detection via webcam.
 
 ## Problem Statement
 Many industrial and hazardous work environments lack standardized and affordable systems for monitoring the presence and accessibility of critical safety equipment. Our project addresses this gap by providing an automated, flexible, and scalable detection tool that leverages synthetic data and modern deep learning.  
 (See attached `HackAura-Hackathon-Documentation-1.pdf` for full details.)
 
-## Key Features
+
+## 📦 Key Features
 - Robust object detection model trained on YOLOv8
 - Real-time safety equipment detection using user’s webcam
 - Interactive Streamlit web application for easy deployment and live monitoring
