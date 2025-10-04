@@ -3,7 +3,7 @@
 ## 🚀 Project Overview
 This project demonstrates a robust, real-time vision system for detecting essential safety equipment in industrial environments. We leverage synthetic data created with the Falcon digital twin simulator, train a YOLOv8 model, and deploy the solution through an interactive Streamlit web app for instant detection via webcam.
 
-## Problem Statement
+## ❗ Problem Statement
 Many industrial and hazardous work environments lack standardized and affordable systems for monitoring the presence and accessibility of critical safety equipment. Our project addresses this gap by providing an automated, flexible, and scalable detection tool that leverages synthetic data and modern deep learning.  
 (See attached `HackAura-Hackathon-Documentation-1.pdf` for full details.)
 
@@ -14,14 +14,14 @@ Many industrial and hazardous work environments lack standardized and affordable
 - Interactive Streamlit web application for easy deployment and live monitoring
 - Easily extensible for additional safety objects or environments
 
-## Requirements
+## ⚙️ Requirements
 - Python 3.8+
 - Streamlit
 - Ultralytics (YOLOv8)
 - OpenCV
 - Other dependencies listed in `requirements.txt`
 
-## Model Architecture & Dataset
+## 🧩 Model Architecture & Dataset
 - **Model:** YOLOv8 (small or medium config)
 - **Dataset:** Synthetic images and YOLO annotations generated with Falcon Digital Twin Editor, featuring key safety objects:
   - OxygenTank
@@ -34,8 +34,8 @@ Many industrial and hazardous work environments lack standardized and affordable
 
 ---
 
-## Step-by-Step Instructions to Run and Test the Model
-
+## 🛠️ Step-by-Step Instructions to Run and Test the Model
+### 🏁 Quickstart
 1. **Clone the Repository**
     ```
     git clone https://github.com/<yourteam>/<reponame>.git
@@ -66,7 +66,7 @@ Many industrial and hazardous work environments lack standardized and affordable
 
 ---
 
-## Notes on Expected Outputs & Their Interpretation
+## 🖼️ Notes on Expected Outputs & Their Interpretation
 
 - **Interface:** Webcam video stream overlays colored boxes and class labels (with confidence scores) for each safety object detected.
 - **Classes:** OxygenTank, NitrogenTank, FirstAidBox, FireAlarm, SafetySwitchPanel, EmergencyPhone, FireExtinguisher.
@@ -76,7 +76,7 @@ Many industrial and hazardous work environments lack standardized and affordable
 
 ---
 
-## Troubleshooting
+## ❓ Troubleshooting
 
 - **No webcam detected?** Restart app, ensure permissions, disconnect from other software (e.g., Zoom).
 - **Streamlit error?** Upgrade/reinstall with `pip install --upgrade streamlit`.
@@ -84,7 +84,7 @@ Many industrial and hazardous work environments lack standardized and affordable
 
 ---
 
-## Reproducing Final Results
+## 🔄 Reproducing Final Results
 
 - Download or generate the synthetic dataset using Falcon, as described in `data/README.md`.
 - Use `train.py` with `yolo_params.yaml` to retrain or fine-tune the YOLOv8 model.
@@ -93,3 +93,12 @@ Many industrial and hazardous work environments lack standardized and affordable
 ---
 
 _For complete methodology, dataset details, mAP scores, and further results, refer to the attached `HackAura-Hackathon-Documentation-1.pdf`._
+
+
+## 🖼️ Results
+| Object           | mAP@0.5 | Precision | Recall |
+|------------------|--------:|----------:|-------:|
+| OxygenTank       |   0.81  |    0.94   |  0.92  |
+| NitrogenTank     |   0.82  |    0.95   |  0.93  |
+| ...              |   ...   |    ...    |  ...   |
+See `/results/` for all class metrics and annotated images.
