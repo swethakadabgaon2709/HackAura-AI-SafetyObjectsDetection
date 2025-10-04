@@ -17,7 +17,7 @@ Many industrial and hazardous work environments lack standardized and affordable
 - Streamlit
 - Ultralytics (YOLOv8)
 - OpenCV
-- Other dependencies listed in [View requirements.txt](./requirements.txt)
+- Other dependencies listed in [requirements.txt](./requirements.txt)
 
 
 ## 🧩 Model Architecture & Dataset
@@ -41,7 +41,6 @@ Many industrial and hazardous work environments lack standardized and affordable
 ## 🛠️ Step-by-Step Instructions to Run and Test the Model
 
 ### 🏁 Quickstart
-- [requirements.txt](./requirements.txt)
 
 1. **Clone the Repository**
     ```
