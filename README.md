@@ -5,8 +5,6 @@ This project demonstrates a robust, real-time vision system for detecting essent
 
 ## ❗ Problem Statement
 Many industrial and hazardous work environments lack standardized and affordable systems for monitoring the presence and accessibility of critical safety equipment. Our project addresses this gap by providing an automated, flexible, and scalable detection tool that leverages synthetic data and modern deep learning.  
-(See attached `HackAura-Hackathon-Documentation-1.pdf` for full details.)
-
 
 ## 📦 Key Features
 - Robust object detection model trained on YOLOv8
