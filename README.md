@@ -59,7 +59,7 @@ Many industrial and hazardous work environments lack standardized and affordable
 
 4. **Run the Streamlit Webcam App**
     ```
-    streamlit run streamlit_app.py
+    streamlit run streamlit_local.py
     ```
     - The app will open in your browser.  
     - Click "Start Webcam" to see live detection (bounding boxes & confidence scores).
@@ -70,42 +70,8 @@ Many industrial and hazardous work environments lack standardized and affordable
     ```
     python train.py
     ```
-
-
-
 ---
 
-## 🛠️ Step-by-Step Instructions to Run and Test the Model
-### 🏁 Quickstart
-1. **Clone the Repository**
-    ```
-    git clone https://github.com/<yourteam>/<reponame>.git
-    cd <reponame>
-    ```
-
-2. **Install Dependencies**
-    ```
-    pip install -r requirements.txt
-    pip install streamlit ultralytics
-    ```
-
-3. **Download Model Weights**
-   - Place the trained `best.pt` file in the project directory or follow instructions in the README on how to acquire it.
-
-4. **Run the Streamlit Webcam App**
-    ```
-    streamlit run webcam_app.py
-    ```
-    The application will open in your browser. Click “Start Webcam” to see real-time detection with bounding boxes and confidence scores.
-
-5. **Training the Model (Optional)**
-   - For retraining, update `yolo_params.yaml` with your dataset paths.
-   - Run:
-    ```
-    python train.py
-    ```
-
----
 
 ## 🖼️ Notes on Expected Outputs & Their Interpretation
 
