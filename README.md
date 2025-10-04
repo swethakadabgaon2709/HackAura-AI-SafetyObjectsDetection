@@ -68,6 +68,7 @@ Many industrial and hazardous work environments lack standardized and affordable
 
 
 <img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/789234b7-010a-437a-82d1-0ae095f95c45" />
+
 ![val_batch2_pred](https://github.com/user-attachments/assets/8edf1dcf-2252-49ce-a1a9-5d4713b4804c)
 ![val_batch1_labels](https://github.com/user-attachments/assets/0ef3f9bb-d30b-487a-9b2a-b1d0f802813b)
 
