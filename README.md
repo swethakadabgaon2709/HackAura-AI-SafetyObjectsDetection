@@ -22,8 +22,8 @@ Many industrial and hazardous work environments lack standardized and affordable
 - Other dependencies listed in `requirements.txt`
 
 ## 🧩 Model Architecture & Dataset
-- **Model:** YOLOv8 (small or medium config)
-- **Dataset:** Synthetic images and YOLO annotations generated with Falcon Digital Twin Editor, featuring key safety objects:
+- **Model:** YOLOv8 (small/medium)
+- **Dataset:** Synthetic images & YOLO-format annotations created in Falcon Editor, featuring seven safety objects:
   - OxygenTank
   - NitrogenTank
   - FirstAidBox
@@ -31,6 +31,10 @@ Many industrial and hazardous work environments lack standardized and affordable
   - SafetySwitchPanel
   - EmergencyPhone
   - FireExtinguisher
+
+**Download the synthetic dataset directly from Falcon:**  
+[https://falcon.duality.ai/secure/documentation/7-class-hackathon&utm_source=hackathon&utm_medium=instructions&utm_campaign=hackaura](https://falcon.duality.ai/secure/documentation/7-class-hackathon&utm_source=hackathon&utm_medium=instructions&utm_campaign=hackaura)
+
 
 ---
 
