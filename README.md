@@ -38,7 +38,7 @@ Many industrial and hazardous work environments lack standardized and affordable
 ---
 
 
-## 🛠️ Step-by-Step Instructions to Run and Test the Model
+## 🛠️ Step-by-Step Instructions to Run and Test the Model (USE CASE)
 
 ### 🏁 Quickstart
 
