@@ -96,8 +96,6 @@ Many industrial and hazardous work environments lack standardized and affordable
 
 ---
 
-_For complete methodology, dataset details, mAP scores, and further results, refer to the attached `HackAura-Hackathon-Documentation-1.pdf`._
-
 
 ## 🖼️ Results
 | Object           | mAP@0.5 | Precision | Recall |
