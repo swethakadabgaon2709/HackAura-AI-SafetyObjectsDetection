@@ -98,6 +98,10 @@ Many industrial and hazardous work environments lack standardized and affordable
     ```
     - The app will open in your browser.  
     - Click "Start Webcam" to see live detection (bounding boxes & confidence scores).
+  
+5. **To directly access the Deployed WebApp**
+   - follow the link [https://hackaura-yolo-app.streamlit.app/]
+   - When file run locally it can access the webcam on a video feed, but deployed app can only access the photos to run detection. 
 
 ---
 
