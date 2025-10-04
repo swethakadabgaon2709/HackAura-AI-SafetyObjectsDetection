@@ -142,12 +142,9 @@ Many industrial and hazardous work environments lack standardized and affordable
 
 
 ## 🖼️ Results
-| Object           | mAP@0.5 | Precision | Recall |
-|------------------|--------:|----------:|-------:|
-| OxygenTank       |   0.81  |    0.94   |  0.92  |
-| NitrogenTank     |   0.82  |    0.95   |  0.93  |
-| ...              |   ...   |    ...    |  ...   |
-See `/results/` for all class metrics and annotated images.
+After training the model we got the following mAP scores for the test dataset by running the predict.py. The steps to setup the environment and to run the code is given in the hackathon documentation pdf. Although our main training was carried out on google colab, we used predict.py by passing it our model to check it's accuracy and mAP. 
+
+![WhatsApp Image 2025-10-05 at 02 27 34_ce8c6cc3](https://github.com/user-attachments/assets/55186749-f7b0-4c11-a1a8-05ef7bcfadd9)
 
 ---
 
