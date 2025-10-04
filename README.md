@@ -72,6 +72,26 @@ Many industrial and hazardous work environments lack standardized and affordable
     ```
 ---
 
+<img width="2250" height="1500" alt="BoxF1_curve" src="https://github.com/user-attachments/assets/3e97951f-f735-40fd-9d00-fd9d44c1a85a" />
+<img width="2250" height="1500" alt="BoxP_curve" src="https://github.com/user-attachments/assets/67da3c9f-0fea-4cc6-9c29-c207b926c308" />
+<img width="2250" height="1500" alt="BoxPR_curve" src="https://github.com/user-attachments/assets/e19ca817-5b86-4971-a1aa-24102b5f2bd1" />
+<img width="2250" height="1500" alt="BoxR_curve" src="https://github.com/user-attachments/assets/a47ec181-298f-41da-bdaa-f4186fffa036" />
+<img width="3000" height="2250" alt="confusion_matrix" src="https://github.com/user-attachments/assets/fac504ea-2a90-4c53-b404-ca168d9e1070" />
+<img width="3000" height="2250" alt="confusion_matrix_normalized" src="https://github.com/user-attachments/assets/abcd05dd-044e-4861-9bda-3355866b6f1b" />
+![labels](https://github.com/user-attachments/assets/2bfd74a8-5381-4728-9012-8a3e37577151)
+
+
+<img width="2400" height="1200" alt="results" src="https://github.com/user-attachments/assets/789234b7-010a-437a-82d1-0ae095f95c45" />
+![train_batch2](https://github.com/user-attachments/assets/74457ff5-7422-4781-bd05-54eab250f79c)
+![train_batch555](https://github.com/user-attachments/assets/49d8ff57-b421-45a0-9e6f-cf22014c8a4c)
+![train_batch556](https://github.com/user-attachments/assets/87a7c5f6-2bc5-42c2-85e0-0e9ff6ad3fba)
+![val_batch2_pred](https://github.com/user-attachments/assets/0dad5ac4-7504-411e-95e7-1832cf8d05a9)
+![val_batch1_pred](https://github.com/user-attachments/assets/3b27f257-1a60-4a99-85b3-666fd041f947)
+
+
+
+
+
 
 ## 🖼️ Notes on Expected Outputs & Their Interpretation
 
