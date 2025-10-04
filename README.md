@@ -37,6 +37,45 @@ Many industrial and hazardous work environments lack standardized and affordable
 
 ---
 
+
+## 🛠️ Step-by-Step Instructions to Run and Test the Model
+
+### 🏁 Quickstart
+- [requirements.txt](./requirements.txt)
+
+1. **Clone the Repository**
+    ```
+    git clone https://github.com/nidhi-ii24/hackaura-yolo-app.git
+    cd hackaura-yolo-app
+    ```
+
+2. **Install Dependencies**
+    ```
+    pip install -r requirements.txt
+    pip install streamlit ultralytics
+    ```
+
+3. **Download Model Weights**
+   - Place your trained `final.pt` (or `best.pt`) into the project root (same folder as `streamlit_app.py`).
+
+4. **Run the Streamlit Webcam App**
+    ```
+    streamlit run streamlit_app.py
+    ```
+    - The app will open in your browser.  
+    - Click "Start Webcam" to see live detection (bounding boxes & confidence scores).
+
+5. **Training the Model (Optional)**
+   - To retrain, update your dataset paths/config in `yolo_params.yaml`.
+   - Run:
+    ```
+    python train.py
+    ```
+
+
+
+---
+
 ## 🛠️ Step-by-Step Instructions to Run and Test the Model
 ### 🏁 Quickstart
 1. **Clone the Repository**
